@@ -1,4 +1,4 @@
-package example.extractor;
+package extractor;
 
 import android.os.AsyncTask;
 import android.text.TextUtils;
@@ -12,14 +12,14 @@ import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.List;
 
-import example.extractor.exception.ExtractException;
-import example.extractor.model.Emoticons;
-import example.extractor.model.Errors;
-import example.extractor.model.ExtractErrors;
-import example.extractor.model.ExtractModel;
-import example.extractor.model.Link;
-import example.extractor.model.Links;
-import example.extractor.model.Mentions;
+import extractor.exception.ExtractException;
+import extractor.model.Emoticons;
+import extractor.model.Errors;
+import extractor.model.ExtractErrors;
+import extractor.model.ExtractModel;
+import extractor.model.Link;
+import extractor.model.Links;
+import extractor.model.Mentions;
 
 /**
  * <p>
@@ -62,7 +62,7 @@ public class ExtractRequest {
     private void onExtractRequestComplete(List<ExtractModel> extractList) {
         ExtractResponseCallback extractResponseCallback = extractResponseCallbackRef.get();
         if (extractResponseCallback == null) {
-            Log.e(TAG, "callback is null");
+            Log.e(TAG, "It seems callback got GCed. Is callback is a type of anonymous class?");
             return;
         }
         try {
@@ -78,6 +78,7 @@ public class ExtractRequest {
     private void onExtractRequestError(Errors.ExtractError extractError) {
         ExtractResponseCallback extractResponseCallback = extractResponseCallbackRef.get();
         if (extractResponseCallbackRef.get() == null) {
+            Log.e(TAG, "It seems callback got GCed. Is callback is a type of anonymous class?");
             return;
         }
         extractResponseCallback.onExtractError(extractError);

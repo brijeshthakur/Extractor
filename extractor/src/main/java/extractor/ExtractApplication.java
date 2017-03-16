@@ -1,4 +1,4 @@
-package example.extractor;
+package extractor;
 
 import android.app.Application;
 import android.content.Context;

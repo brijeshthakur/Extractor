@@ -1,4 +1,4 @@
-package example.extractor.exception;
+package extractor.exception;
 
 public class ExtractException extends Exception {
 

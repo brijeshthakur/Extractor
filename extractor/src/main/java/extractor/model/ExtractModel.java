@@ -1,8 +1,6 @@
-package example.extractor.model;
+package extractor.model;
 
 import java.util.List;
-
-import static android.icu.lang.UCharacter.GraphemeClusterBreak.T;
 
 public interface ExtractModel<T> {
     void add(T object);

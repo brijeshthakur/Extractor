@@ -1,4 +1,4 @@
-package example.extractor;
+package extractor;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -8,8 +8,9 @@ import org.junit.runner.RunWith;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.annotation.Config;
 
-import example.extractor.model.Errors;
-import example.extractor.exception.ExtractException;
+import extractor.ExtractRequest;
+import extractor.model.Errors;
+import extractor.exception.ExtractException;
 
 import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertFalse;

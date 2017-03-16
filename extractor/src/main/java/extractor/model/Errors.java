@@ -1,4 +1,4 @@
-package example.extractor.model;
+package extractor.model;
 
 public class Errors {
 

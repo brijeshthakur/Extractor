@@ -1,4 +1,4 @@
-package example.extractor.model;
+package extractor.model;
 
 import java.util.ArrayList;
 import java.util.List;

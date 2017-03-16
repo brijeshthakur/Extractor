@@ -1,12 +1,12 @@
-package example.extractor;
+package extractor;
 
 import android.support.annotation.NonNull;
 import android.webkit.URLUtil;
 
 import java.util.regex.Matcher;
 
-import example.extractor.model.Link;
-import example.extractor.model.Links;
+import extractor.model.Link;
+import extractor.model.Links;
 
 public class LinkExtractor extends Extractor {
 

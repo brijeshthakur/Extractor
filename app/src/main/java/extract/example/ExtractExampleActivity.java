@@ -1,4 +1,4 @@
-package extract.example.extractexample;
+package extract.example;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -12,9 +12,9 @@ import android.widget.TextView;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import example.extractor.ExtractRequest;
-import example.extractor.exception.ExtractException;
-import example.extractor.model.Errors;
+import extractor.ExtractRequest;
+import extractor.exception.ExtractException;
+import extractor.model.Errors;
 
 
 public class ExtractExampleActivity extends AppCompatActivity implements ExtractRequest.ExtractResponseCallback<JSONObject> {

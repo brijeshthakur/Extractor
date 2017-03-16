@@ -1,12 +1,12 @@
-package example.extractor;
+package extractor;
 
 import android.support.annotation.NonNull;
 import android.text.TextUtils;
 
 import java.util.regex.Matcher;
 
-import example.extractor.exception.ExtractException;
-import example.extractor.model.Mentions;
+import extractor.exception.ExtractException;
+import extractor.model.Mentions;
 
 public class MentionExtractor extends Extractor {
 

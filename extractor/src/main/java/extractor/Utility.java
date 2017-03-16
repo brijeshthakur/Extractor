@@ -1,4 +1,4 @@
-package example.extractor;
+package extractor;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

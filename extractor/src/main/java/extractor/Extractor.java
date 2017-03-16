@@ -1,10 +1,10 @@
-package example.extractor;
+package extractor;
 
 import android.support.annotation.NonNull;
 
 import java.util.regex.Pattern;
 
-import example.extractor.exception.ExtractException;
+import extractor.exception.ExtractException;
 
 public abstract class Extractor<T> {
 

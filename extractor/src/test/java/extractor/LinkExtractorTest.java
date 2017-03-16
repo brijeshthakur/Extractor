@@ -1,12 +1,14 @@
-package example.extractor;
+package extractor;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.annotation.Config;
 
-import example.extractor.exception.ExtractException;
-import example.extractor.model.Links;
+import extractor.Extractor;
+import extractor.LinkExtractor;
+import extractor.exception.ExtractException;
+import extractor.model.Links;
 
 
 import static junit.framework.Assert.assertEquals;

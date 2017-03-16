@@ -1,4 +1,4 @@
-package example.extractor;
+package extractor;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -6,13 +6,13 @@ import org.json.JSONObject;
 
 import java.util.List;
 
-import example.extractor.model.Emoticons;
-import example.extractor.model.Errors;
-import example.extractor.model.ExtractErrors;
-import example.extractor.model.ExtractModel;
-import example.extractor.model.Link;
-import example.extractor.model.Links;
-import example.extractor.model.Mentions;
+import extractor.model.Emoticons;
+import extractor.model.Errors;
+import extractor.model.ExtractErrors;
+import extractor.model.ExtractModel;
+import extractor.model.Link;
+import extractor.model.Links;
+import extractor.model.Mentions;
 
 /**
  * This class converts extracted data into json. As of now I am using plain json object, but if we

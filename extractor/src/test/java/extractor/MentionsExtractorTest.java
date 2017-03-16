@@ -1,12 +1,14 @@
-package example.extractor;
+package extractor;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.annotation.Config;
 
-import example.extractor.exception.ExtractException;
-import example.extractor.model.Mentions;
+import extractor.Extractor;
+import extractor.MentionExtractor;
+import extractor.exception.ExtractException;
+import extractor.model.Mentions;
 
 import static junit.framework.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;

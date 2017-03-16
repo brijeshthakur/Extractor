@@ -1,10 +1,10 @@
-package example.extractor;
+package extractor;
 
 import android.support.annotation.NonNull;
 
 import java.util.regex.Matcher;
 
-import example.extractor.model.Emoticons;
+import extractor.model.Emoticons;
 
 public class EmoticonsExtractor extends Extractor {
 
