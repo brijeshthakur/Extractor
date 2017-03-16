@@ -32,10 +32,10 @@ import extractor.model.Mentions;
  * ExtractRequest extractRequest = new ExtractRequest();
  * extractRequest.extract(statement, new ExtractRequest.ExtractResponseCallback<JSONObject>() {
  * @Override
- * public void onExtractComplete(final JSONObject response) throws JSONException {
+ * public void onExtractComplete(T response) throws JSONException {
  * }
  * @Override
- * public void onExtractError(final Errors.ExtractException error)
+ * public void onExtractError(Errors.ExtractException error)
  * });
  * }
  * </pre>

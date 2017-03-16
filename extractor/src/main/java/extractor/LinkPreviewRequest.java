@@ -1,7 +1,5 @@
 package extractor;
 
-import android.util.Log;
-
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -14,8 +12,6 @@ import java.io.IOException;
  * Document.
  */
 public final class LinkPreviewRequest {
-
-    private static final String TAG = "LinkPreviewRequest";
 
     public static String getTitle(String url) throws IOException {
 
