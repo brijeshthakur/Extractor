@@ -19,7 +19,9 @@ Input : @bob (success) link https://www.example.com
 
 ```
 Output:
-``` 
+```
+
+```Json 
 {
    "mentions":[
       "bob"
@@ -34,13 +36,14 @@ Output:
       }
    ]
 }
+```
 
+* It also returns error which it encounter during extract process. 
 
-It also returns Error which it encounter during extract process. 
-
-Output with error: 
-
-
+```
+Output with error:
+``` 
+```Json
 {
    "mentions":[
       "bob"
@@ -60,6 +63,7 @@ Output with error:
       }
    ]
 }
+```
 
  
 
