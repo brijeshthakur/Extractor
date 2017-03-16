@@ -1,6 +1,6 @@
 # Extractor
 
-[Extractor] (https://github.com/brijeshthakur/Extractor/tree/master/extractor) library extracts Mentions (@abc) Links (https://www.example.com) and Emoticons (smile) from a given string and returns JSON as a response.
+[Extractor](https://github.com/brijeshthakur/Extractor/tree/master/extractor) library extracts Mentions (@abc) Links (https://www.example.com) and Emoticons (smile) from a given string and returns JSON as a response.
 
 Library follows abstraction and extensibility design principle, so that in future if this library needs to support more features to extract from a given string, It can be accommodated easily and from outside the world the interface for communication remains same. It propagates error to the caller as part of JSON response if it fails to extract any of the feature. Extraction part decoupled in a way that, If one of the extraction gets failed doesn’t impact another one and return the result json at least for those which got extracted successfully.
 
