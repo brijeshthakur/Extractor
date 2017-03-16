@@ -1,4 +1,4 @@
-#Extractor
+# Extractor
 
 Extractor Library (https://github.com/brijeshthakur/Extractor/tree/master/extractor) extracts Mentions (@abc) Links (https://www.example.com) and Emoticons (smile) from a given String and returns JSON.
 
@@ -11,14 +11,15 @@ I’ve added an Sample App for demo purpose which included “extractor” as a 
 
 Note : Sample App is very basic and just for demo to show how can one use it in actual App. 
 
-```
-Example
-```
+### Example
 
+```
 Input : @bob (success) link https://www.example.com
+```
 
-Output: 
-
+```
+Output:
+``` 
 {
    "mentions":[
       "bob"
